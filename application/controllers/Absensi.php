@@ -217,6 +217,7 @@ class Absensi extends CI_Controller {
         // dapatkan semua siswa dalam rombel berdasarkan id kelas yang aktif
         $data['absensi'] = $this->Absensi_model->get_absensi();
         $data['kelas'] = $this->Absensi_model->get_kelas();
+        print_r($data['absensi']);
 
         // print_r($data['absensi']);
 

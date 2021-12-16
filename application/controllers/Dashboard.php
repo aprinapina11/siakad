@@ -25,6 +25,7 @@ class Dashboard extends CI_Controller {
         $this->data['jumlah_guru'] = $this->Guru_model->count_row();
         $this->data['jumlah_siswa'] = $this->Siswa_model->count_row();
         
+        
         // print_r($_SESSION);
         // $this->session->set_flashdata('message', 'anda berhasil menginput data');
         

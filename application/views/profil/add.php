@@ -6,7 +6,7 @@
 		<div class="col-12">
 			<div class="card shadow mb-4">
 				<div class="card-header py-3">
-					<h3 class="m-0 font-weight-bold text-primary">Profil Lembaga</h3>
+					<h3 class="m-0 font-weight-bold text-primary">Profil Sekolah</h3>
 				</div>
 				<div class="card-body">
 					<?php echo form_open('profil/add'); ?>
@@ -147,7 +147,7 @@
 <footer class="sticky-footer bg-white">
 	<div class="container my-auto">
 		<div class="copyright text-center my-auto">
-			<span>Copyright &copy; Your Website 2019</span>
+			<span>website &copy; aprina</span>
 		</div>
 	</div>
 </footer>

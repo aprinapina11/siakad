@@ -20,6 +20,8 @@ class Absensi_model extends CI_Model
         $this->db->join('absensi', 'rombel.id_siswa = absensi.id_siswa', 'left outer');
         $db = $this->db->get();
 
+    
+
         return $db->result_array();
         // return $this->db->last_query();
     }

@@ -125,19 +125,19 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="tempat_lahir" class="col-md-4 control-label">Tempat Lahir</label>
+						<label for="tanggal_lahir" class="col-md-4 control-label">Tanggal Lahir</label>
 						<div class="col-md-8">
-							<input type="date" name="tempat_lahir"
-								value="<?php echo $this->input->post('tempat_lahir'); ?>" class="form-control"
-								id="tempat_lahir" />
+							<input type="date" name="tanggal_lahir"
+								value="<?php echo $this->input->post('tanggal_lahir'); ?>" class="form-control"
+								id="tanggal_lahir" />
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="tanggal_lahir" class="col-md-4 control-label">Tanggal Lahir</label>
+						<label for="tempat_lahir" class="col-md-4 control-label">Tempat Lahir</label>
 						<div class="col-md-8">
-							<input type="text" name="tanggal_lahir"
-								value="<?php echo $this->input->post('tanggal_lahir'); ?>" class="form-control"
-								id="tanggal_lahir" />
+							<input type="text" name="tempat_lahir"
+								value="<?php echo $this->input->post('tempat_lahir'); ?>" class="form-control"
+								id="tempat_lahir" />
 						</div>
 					</div>
 					<div class="form-group">
@@ -313,7 +313,7 @@
 <footer class="sticky-footer bg-white">
 	<div class="container my-auto">
 		<div class="copyright text-center my-auto">
-			<span>Copyright &copy; Your Website 2019</span>
+			<span>Website &copy; aprina</span>
 		</div>
 	</div>
 </footer>

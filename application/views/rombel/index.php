@@ -89,8 +89,8 @@
 						</button>
 						<div class="dropdown-menu">
 							<!-- Dropdown menu links -->
-							<a href="#" class='dropdown-item'>Cetak absensi kelas</a>
-							<a href="#" class='dropdown-item'>Hapus kelas</a>
+							<a href="<?= base_url('absensi/cetak'); ?>" class='dropdown-item'>Cetak absensi kelas</a>
+							<a href="<?= base_url('kelas'); ?>" class='dropdown-item'>Hapus kelas</a>
 						</div>
 					</div>
 				</div>
