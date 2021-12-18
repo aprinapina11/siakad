@@ -52,9 +52,9 @@
 				<div class="card-body">
 					<div class="row no-gutters align-items-center">
 						<div class="col mr-2">
-							<div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah Kelas dan Rombel
+							<div class="text-xs font-weight-bold text-info text-uppercase mb-1">Jumlah Kelas 
 							</div>
-							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $jumlah_kelas, $jumlah_rombal; ?></div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800">24</div>
 						</div>
 						<div class="col-auto">
 							<i class="fas fa-users fa-2x"></i>
@@ -72,7 +72,7 @@
 						<div class="col mr-2">
 							<div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Jumlah Mata Pelajaran
 							</div>
-							<div class="h5 mb-0 font-weight-bold text-gray-800"><?= $jumlah_matapelajaran; ?></div>
+							<div class="h5 mb-0 font-weight-bold text-gray-800">8</div>
 						</div>
 						<div class="col-auto">
 							<i class="fas fa-book fa-2x"></i>

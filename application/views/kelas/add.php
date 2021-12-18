@@ -6,7 +6,7 @@
 		<div class="col-12">
 			<div class="card shadow mb-4">
 				<div class="card-header py-3">
-					<h3 class="m-0 font-weight-bold text-primary">Tambah Guru</h3>
+					<h3 class="m-0 font-weight-bold text-primary">Tambah Kelas</h3>
 				</div>
 				<div class="card-body">
 					<?php echo form_open('kelas/add',array("class"=>"form-horizontal")); ?>
@@ -36,7 +36,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="nama" class="col-md-4 control-label"><span class="text-danger">*</span>Nama</label>
+						<label for="nama" class="col-md-4 control-label"><span class="text-danger">*</span>Jurusan</label>
 						<div class="col-md-8">
 							<input type="text" name="nama" value="<?php echo $this->input->post('nama'); ?>"
 								class="form-control" id="nama" />
@@ -76,7 +76,7 @@
 <footer class="sticky-footer bg-white">
 	<div class="container my-auto">
 		<div class="copyright text-center my-auto">
-			<span>Copyright &copy; Your Website 2019</span>
+			<span>Website &copy; datang</span>
 		</div>
 	</div>
 </footer>

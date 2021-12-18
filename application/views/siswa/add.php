@@ -252,10 +252,10 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="foto" class="col-md-4 control-label">Foto</label>
+						<label for="umur" class="col-md-4 control-label">umur</label>
 						<div class="col-md-8">
-							<input type="text" name="foto" value="<?php echo $this->input->post('foto'); ?>"
-								class="form-control" id="foto" />
+							<input type="text" name="umur" value="<?php echo $this->input->post('umur'); ?>"
+								class="form-control" id="umur" />
 						</div>
 					</div>
 					<div class="form-group">
